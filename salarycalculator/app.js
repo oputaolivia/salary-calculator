@@ -1,10 +1,9 @@
-//declares function to calculate salary
+//function to calculate wage
 function calculateWage(hours, extraPay) {
 
     const rate = 1000;
     var hours = parseInt(document.getElementById("worked").value); 
 
-  //if hours worked for is greater or equals to 4 hours
     if (hours > 4){
         extraPay = (hours - 4) * 200;
         workpay = (hours * rate) + extraPay;
